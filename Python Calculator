@@ -86,4 +86,5 @@ a = str(a)
 
 print(type(a)) #str
 
-input("enter your name: ")
+name = input("enter your name: ")
+print("walcome", name)
