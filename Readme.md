@@ -1,3 +1,3 @@
-# This is my Python Learnig 
+# This is my Python Learning 
 <br> 
 Author - Ankit
