@@ -10,3 +10,6 @@ print(students[0])
 students[0] = "Bhavik"
 print(students)
 
+tup = ("C","D","A","A","B","B","A")
+print(tup.count("A")) 
+print(tup.index("A"))
