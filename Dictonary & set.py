@@ -40,7 +40,55 @@ set= set()
 set.add(1)
 set.add(2)
 set.add(2)
-set.add(3)
+set.add((1, 2, 3))
+set.add("hello")
 set.add(4) 
 set.remove(2)
 print(set)
+print (len(set))
+print(set.pop())
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set3 = (set1.union(set2))
+print(set3)
+set4 = (set1.intersection(set2))
+print(set4)
+
+# qus: 12
+list= {
+    "table" : "a piece of furniture", "list of facts & figures"
+    "cat" : "a small animal"
+}
+print(list)
+
+# qus: 13
+classroom = {"python", "java", "c++", "python", "javascript","java", "python","java", "c++", "c"}
+print(classroom)
+print(len(classroom))
+
+# qus: 14
+dict = {}
+dict["Math"] = 89
+dict["English"] = 78
+dict["Hindi"] = 90
+print(dict) 
+# or
+marks = {}
+x = int(input("enter marks of Math: "))
+marks.update({"Math": x})
+y = int(input("enter marks of English: "))
+marks.update({"English": y})
+z = int(input("enter marks of Hindi: "))
+marks.update({"Hindi": z})
+print(marks)
+
+# qus: 15
+list = {9, "9,0"}
+print(list)
+# or
+list = {
+    ("float", 9.0),
+    ("int", 9),
+}
+print(list)

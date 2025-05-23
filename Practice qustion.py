@@ -62,3 +62,41 @@ print(tup.count("A"))
 tup = ["C","D","A","A","B","B","A"]
 tup.sort()
 print(tup)
+
+# qus: 12
+list= {
+    "table" : "a piece of furniture", "list of facts & figures"
+    "cat" : "a small animal"
+}
+print(list)
+
+# qus: 13
+classroom = {"python", "java", "c++", "python", "javascript","java", "python","java", "c++", "c"}
+print(classroom)
+print(len(classroom))
+
+# qus: 14
+dict = {}
+dict["Math"] = 89
+dict["English"] = 78
+dict["Hindi"] = 90
+print(dict) 
+# or
+marks = {}
+x = int(input("enter marks of Math: "))
+marks.update({"Math": x})
+y = int(input("enter marks of English: "))
+marks.update({"English": y})
+z = int(input("enter marks of Hindi: "))
+marks.update({"Hindi": z})
+print(marks)
+
+# qus: 15
+list = {9, "9,0"}
+print(list)
+# or
+list = {
+    ("float", 9.0),
+    ("int", 9),
+}
+print(list)
