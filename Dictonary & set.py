@@ -19,3 +19,28 @@ null_dict = {}
 null_dict["name"] = "Ankit"
 null_dict["age"] = 25
 print(null_dict)
+
+student = {
+    "name": "Ankit",
+    "subjects": {
+        "Python": 90,
+        "Java": 80,
+        "C++": 85 
+    }
+}
+print(student)
+#set
+collection = {1,2,3,2,3,"hello","world","world"}
+print(collection)
+print(type(collection))
+print(len(collection))
+print("hello" in collection)
+
+set= set()
+set.add(1)
+set.add(2)
+set.add(2)
+set.add(3)
+set.add(4) 
+set.remove(2)
+print(set)
