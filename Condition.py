@@ -12,3 +12,14 @@ elif(marks >= 33):
     print("Grade E")
 else:
     print("Grade F", "You are fail")
+
+# qus: 9
+list1 = [1,2,1]
+
+copy_list = list1.copy()
+copy_list.reverse()
+
+if(copy_list == list1):
+    print("List1 is palindrome")
+else:
+    print("List1 is not palindrome")
